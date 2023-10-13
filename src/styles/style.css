@@ -1,0 +1,215 @@
+.header{
+    background-image: url(../images/1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    font-family: "Monserrat";
+}
+.header h4{
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.header span{
+    transition: 1s;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    font-size: 50px;
+}
+.gellery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one{
+    width: 100%; 
+    height: 550px;   
+}
+.two , .three{
+    width: 50%;
+    height: 350px;
+}
+.one img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top; 
+}
+.two img , .three img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.date{
+    background: brown;
+    padding: 100px 0 0;
+}
+.date h2{
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.date p{
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;    
+    letter-spacing: 1px;
+}
+.date .address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.date .address div{
+    border-radius: 5px;
+    background: rgb(220, 120, 83);
+    color: white;
+    padding: 10px 25px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    position: relative;
+}
+.date .address div::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: rgb(220, 120, 83);
+    left: -35%;
+    top: 20px;
+}
+.date .address div::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: rgb(220, 120, 83);
+    left: 100%;
+    top: 20px;
+}
+.date h3{
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;   
+}
+.timer__items {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+  }
+  .timer__item {
+    position: relative;
+    min-width: 60px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 14px;
+  }
+  .timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
+  }
+  .time{
+    padding-top: 80px;
+    background-image: url(../images/2.JPG), linear-gradient(45deg, #040404, #5c6164);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+  }
+  .time h2 , .timer{
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+
+.two__gis img{
+    width: 200px;
+}
+.maps{
+    overflow: hidden;
+}
+.form{
+    padding: 100px 0;
+}
+label{
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+form .name{
+    width: 100%;
+    border-bottom:1px solid black ;
+    margin-bottom: 50px;
+}
+form .name input{
+    border: none;
+    outline: 0;
+    width: 100%;
+}
+form input{
+    margin-right: 10px;
+}
+form span{
+    font-size: 15px;
+    font-weight: 300;
+}
+form{
+    /* text-align: center; */
+}
+form .btn{
+    padding: 10px 31px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+.btn__{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
